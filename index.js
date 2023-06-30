@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: 'https://white-moss-0c270380f.3.azurestaticapps.net'
+  origin: '*'
 }));
 
 app.use(express.urlencoded({ extended: true }));
