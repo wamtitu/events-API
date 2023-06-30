@@ -4,7 +4,7 @@ dotenv.config();
 const {DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE, JWT_SECRET} = process.env;
 
 const config = {
-    port:5000,
+    port:8080,
     JWT_SECRET: JWT_SECRET,
     sql:{
         user: DB_USER,
