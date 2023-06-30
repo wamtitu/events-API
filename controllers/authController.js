@@ -2,8 +2,6 @@ const jwt = require('jsonwebtoken');
 const sql = require('mssql');
 const bcrypt = require('bcrypt');
 const config = require('../config');
-const { VarChar } = require('msnodesqlv8');
-
 exports.register = async (req, res)=>{
    
     try {

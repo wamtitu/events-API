@@ -1,4 +1,3 @@
-const { VarChar, Int } = require('msnodesqlv8');
 const config = require('./../config');
 const sql = require('mssql');
 const { Transaction } = require('mssql');
